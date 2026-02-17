@@ -5,7 +5,7 @@ import cookieParser from "cookie-parser";
 
 const app = express();
 
-app.use(cookieParser('secret123'));
+app.use(cookieParser('demosecret123'));
 
 app.get("/", (req, res) => {
    const username = req.signedCookies.username;
