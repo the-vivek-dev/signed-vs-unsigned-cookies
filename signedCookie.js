@@ -23,7 +23,7 @@ app.get("/set-cookie", (req, res) => {
        signed: true
     })
 
-    res.send('cookie has been sent.')
+    res.send('cookie has been set.')
 });
 
 
